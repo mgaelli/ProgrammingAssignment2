@@ -1,8 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## These functions invert a matrix, and cache the result. If the same matrix is 
+## submitted for inversion again, the cached result will be returned.
+
 ## Write a short comment describing this function
-## Creates a list of functions, calculating the inverse of the matrix x, and cacheing it 
+## Creates a list of functions, calculating the inverse of the matrix x, and caching it 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y){
